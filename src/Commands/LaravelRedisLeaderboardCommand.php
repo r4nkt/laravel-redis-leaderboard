@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace R4nkt\LaravelRedisLeaderboard\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelRedisLeaderboardCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-redis-leaderboard';
 
     public $description = 'My command';
 

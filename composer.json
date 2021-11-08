@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "r4nkt/laravel-redis-leaderboard",
+    "description": "This is my package laravel-redis-leaderboard",
     "keywords": [
-        ":vendor_name",
+        "r4nkt",
         "laravel",
-        ":package_slug"
+        "laravel-redis-leaderboard"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/r4nkt/laravel-redis-leaderboard",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Travis Elkins",
+            "email": "travis.elkins@r4nkt.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "R4nkt\\LaravelRedisLeaderboard\\": "src",
+            "R4nkt\\LaravelRedisLeaderboard\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "R4nkt\\LaravelRedisLeaderboard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "R4nkt\\LaravelRedisLeaderboard\\LaravelRedisLeaderboardServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelRedisLeaderboard": "R4nkt\\LaravelRedisLeaderboard\\LaravelRedisLeaderboardFacade"
             }
         }
     },
