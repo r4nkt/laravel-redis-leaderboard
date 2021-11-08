@@ -2,9 +2,9 @@
 
 namespace R4nkt\LaravelRedisLeaderboard;
 
+use R4nkt\LaravelRedisLeaderboard\Commands\LaravelRedisLeaderboardCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use R4nkt\LaravelRedisLeaderboard\Commands\LaravelRedisLeaderboardCommand;
 
 class LaravelRedisLeaderboardServiceProvider extends PackageServiceProvider
 {
